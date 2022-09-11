@@ -38,7 +38,7 @@ if __name__ == "__main__":
             html = request(url_final)
             if html:
                 if is_vulnerable(html):
-                    print("[ + ] {} parametro é vulneravel".format(param))
+                    print("parametro é vulneravel".format(param))
                     quit()
 
     print("Não vulneravel")
